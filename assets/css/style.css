@@ -1188,16 +1188,24 @@ section {
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
+  height: 260px;
+  margin-top: 10px;
 }
 
 .doctors .member .pic {
   overflow: hidden;
-  width: 180px;
+  width: 20%;
   border-radius: 50%;
 }
 
 .doctors .member .pic img {
   transition: ease-in-out 0.3s;
+}
+
+
+
+.member-info {
+  width: 70%;
 }
 
 .doctors .member:hover img {
@@ -1810,7 +1818,11 @@ section {
 }
 
 
-.blog_banner{
+.blog_banner {
   padding-top: 10px;
   width: 100%;
+}
+
+.demo {
+  display: none;
 }
